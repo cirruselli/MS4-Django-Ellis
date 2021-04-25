@@ -19,7 +19,8 @@ The business goals of this website are:
 The user goals of this website are:    
 * Search and view the products     
 * Add your own profile
-* View product ratings and rate oneself   
+* View product ratings and rate oneself
+* Shop   
 
 ## User Experience (UX)
 
@@ -85,8 +86,8 @@ The "products pages" is each individual page with products on them and are as fo
 Each page can be sorted by price, rating, name och category.
 
 **Product details**
-This page displays one product and its details such as description, quantity, price etc. The "Add to bag" button is dark green and 
-shades in light green when hovered over. The "Keep shopping" button is white and shades in dark green when hovered over.  
+This page displays one product and its details such as description, quantity, price, rating and category. The "Add to bag" button is 
+dark green and shades in light green when hovered over. The "Keep shopping" button is white and shades in dark green when hovered over.  
 
 **Sign up**   
 This is a page where the shopper can sign up to create their own profile by filling out the form. The "Sign up" button is dark green and 
@@ -114,9 +115,12 @@ and shades in light green when hovered over.
     - Landing page - allows users to enter the site  to start shopping via "Shop Now" button.
     - All products page - Shows all products by price, rating, name or category
     - Products pages - each individual page with products on them
+    - Product details - displays one product and its details
     - Sign up -click here to register to the page.
     - Sign in - click here when you have a registered account and want to log in to the site.
+    - My profile - the shopper can fill out the form to set their personal information. The page displays the order information.
     - Sign out - click here when you want to log out from your profile.
+    - Bag - displays the products and quantity that will be purchased
 
 - ### Features Left to Implement
     - contact page
@@ -156,7 +160,7 @@ To deploy this project to GitHub Pages, the following steps is taken:
 
 ### Heroku Deployment
 To deploy this project to Heroku, the following steps were taken:
-1. Create a `requirements.txt` file using the terminal command `pip3 freeze --local > requiremenets.txt`.
+1. Create a `requirements.txt` file using the terminal command `pip3 freeze --local > requirements.txt`.
 2. Create a `Procfile` with the terminal command `echo web: python app.py > Procfile`.
 3. Use `git add` and `git commit` for the `requirements.txt` and `Procfile` and then `git push` the project to GitHub.
 4. Log in and create a new app on the [Heroku website](https://dashboard.heroku.com) by clicking the "New" button and "Create New App" in your dashboard. Give the app a unique name, set the region to Europe and click "Create app".

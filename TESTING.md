@@ -13,7 +13,7 @@ Most testing was done throughout development, and it was manual tests.
 1. 
 
 
-* Different web-browsers (Opera, Firefox, Microsoft Edge, Chrome) and Samsung galaxy 9 - Android have been used to check the website's 
+* Different web-browsers (Opera, Firefox, Microsoft Edge, Chrome) and Samsung galaxy 9 (Android) have been used to check the website's 
     layout and that the site works well on different devices and screensizes. Where needed I used media query to fix any responsiveness issues.
 
 
