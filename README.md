@@ -1,6 +1,6 @@
 # Ellis
 
-My Milestone Project 4 presents a website where a visitor can by products related to horses and horseriding.
+My Milestone Project 4 presents a website where a visitor can buy products related to horses and horseriding.
 
 Here's a link to the live app:
 
@@ -17,7 +17,7 @@ The business goals of this website are:
 * Make the shopper "shop till they drop"   
 
 The user goals of this website are:    
-* Search the products     
+* Search and view the products     
 * Add your own profile
 * View product ratings and rate oneself   
 
@@ -33,10 +33,10 @@ The user goals of this website are:
     5. As a Shopper, I want to be able to view the total of my purchases, so that I know how much I will spend     
     6. As a Shopper, I want to be able to select the size and quantity of a product, so that I can ensure I select the right quantity, size and product     
     7. As a Shopper, I want to be able to adjust the quantity of individual products in my bag, so that I can make changes to my purchase before checkout     
-    8. As a Shopper, I want to be able to receive an email confirmation after checkout, so that I can view what I have purchased         
+    8. As a Shopper, I want to be able to receive an email confirmation after checkout, so that I can view what I have purchased       
 
 **Site User Goals**    
-    1. As a Site User, I want to be able to register an account and log in, so that I can be able to view my profile    
+    1. As a Site User, I want to be able to register an account and log iSn, so that I can be able to view my profile    
     2. As a Site User, I want to be able to receive an email confirmation after registering, so that I can verify that my account registration was successful      
     3. As a Site User, I want to be able to logout, so that no one else can access my profile      
     4. As a Site User, I want to be able to view my order history, so that I can check what I bought     
@@ -46,7 +46,7 @@ The user goals of this website are:
 **Store Owner Goals**     
     1. As a Store Owner, I want to be able to add a product, so that I can add new products to the store    
     2. As a Store Owner, I want to be able to edit a product, so that I can make changes to a products image, description, price etc              
-    3. As a Store Owner, I want to be able to delete a product, so that I can remove products that is no longer a part of the collection         
+    3. As a Store Owner, I want to be able to delete a product, so that I can remove products that are no longer a part of the collection         
 
 - ### Design 
     - **Color Scheme**   
@@ -60,7 +60,7 @@ The user goals of this website are:
     The pictures shows horse related products to buy.
     
     - **Interactivity**   
-    Users can register and login to their own profile. Order history is displayed on the "My Profile" page.
+    Shoppers can register and login to their own profile. Order history is displayed on the "My Profile" page.
 
 - ### Wireframe
     The wireframes was created using Figma and the wireframes are included as pdf files in the project itself (in a separate directory 
@@ -84,18 +84,31 @@ The "products pages" is each individual page with products on them and are as fo
 **GROOMING**: Grooming kit, Fur care, Farriery, Medical care, Leather care    
 Each page can be sorted by price, rating, name och category.
 
+**Product details**
+This page displays one product and its details such as description, quantity, price etc. The "Add to bag" button is dark green and 
+shades in light green when hovered over. The "Keep shopping" button is white and shades in dark green when hovered over.  
+
 **Sign up**   
-This is a page where the shopper can sign up to create their own profile by filling out the form.
+This is a page where the shopper can sign up to create their own profile by filling out the form. The "Sign up" button is dark green and 
+shades in light green when hovered over. The "Back to Sign in" button is white and shades in dark green when hovered over. 
 
 **Sign in**
-This is a page where the shopper can sign in to their profile once they have registered to the site.
+This is a page where the shopper can sign in to their profile once they have registered to the site. The "Sign in" button is dark green,
+and shades in light green when hovered over. The "Home" button is white and shades in dark green when hovered over.
 
 **My Profile page**    
-This is a page where the shopper can fill in the form to set their information like phone number, street address, town/city, 
-county/state/locality, postal code and country. The page also display the order history.
+This is a page where the shopper can fill out the form to set their personal information like phone number, street address, town/city, 
+county/state/locality, postal code and country. The page also displays the order history. The "Update information" button is dark green and 
+shades in light green when hovered over. 
 
-**Sign out**
-This is the button the shopper click when they want to sign out from their profile.
+**Sign out**    
+This is the button the shopper click when they want to sign out from their profile. It shades in light green when hovered over. 
+The "Sign out" button is dark green and shades in light green when hovered over. The "Cancel" button is white and shades in dark green 
+when hovered over. 
+
+**Bag**    
+The bag displays the products that will be purchased and also the quantity which can be changed. The "Checkout" button is dark green 
+and shades in light green when hovered over. 
 
 - ### Existing Features
     - Landing page - allows users to enter the site  to start shopping via "Shop Now" button.
@@ -128,7 +141,7 @@ This is the button the shopper click when they want to sign out from their profi
 - [Figma](https://www.figma.com/) - to create the wireframes during the design process
 
 ## Testing
-Testing information can be found in separate [TESTING.md file]()
+Testing information can be found in a separate [TESTING.md file](https://github.com/cirruselli/MS4-Django-Ellis/blob/master/TESTING.md)
 
 ## Deployment
 
