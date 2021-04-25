@@ -2,12 +2,13 @@
 
 My Milestone Project 4 presents a website where a visitor can by products related to horses and horseriding.
 
-Here's a link to the live app: https://data-centric-horsenet.herokuapp.com/
+Here's a link to the live app:
 
-This website is for people who have horses as a hobby or work with it. The website has products like riding clothes, riders gear (such as
-helmets, body protectors), grooming kit, medical care, saddles, bridles, bits etc. Everything a horse person needs!
+This website is for people who have horses as a hobby or work with it and want to buy some horse-related products. The website has products like riding clothes, 
+riders gear (such as helmets, body protectors), grooming kit, medical care, saddles, bridles, bits etc. Everything a horse person needs!
 
-[Hööks](https://www.hookseurope.com/) has been the focal point in this project. Their website looks clean and is easy to navigate and has been an inspiration for me.
+[Hööks](https://www.hookseurope.com/) has been the focal point in this project. Their website looks clean and is easy to navigate 
+and has been an inspiration for me.
 They also have the green colour, but actually, I had planned the green colour scheme before I visited their site.  
 
 The business goals of this website are:    
@@ -19,25 +20,33 @@ The user goals of this website are:
 * Search the products     
 * Add your own profile
 * View product ratings and rate oneself   
-* "Shop till you drop"
 
 ## User Experience (UX)
 
 ### User stories
 
 **Shopper Goals**   
-    1. As a Shopper, I want to easily understand the main purpose of the site    
+    1. As a Shopper, I want to be able to easily understand the main purpose of the site    
     2. As a Shopper, I want to be able to easily navigate throughout the site, so that I can find content   
-    3. As a Shopper, I want to be able to search the site, so that I can easily find what I am looking for   
-    1. As a Shopper, I want to be able to view individual product details, so that I can identify the price, product image, description, product rating and available sizes  
-    2. As a Shopper, I want to be able to view the total of my purchases, so that I know how much I will spend     
+    3. As a Shopper, I want to be able to search the site and view the number of results, so that I can easily find what I am looking for   
+    4. As a Shopper, I want to be able to view individual product details, so that I can identify the price, product image, description, product rating and available sizes  
+    5. As a Shopper, I want to be able to view the total of my purchases, so that I know how much I will spend     
+    6. As a Shopper, I want to be able to select the size and quantity of a product, so that I can ensure I select the right quantity, size and product     
+    7. As a Shopper, I want to be able to adjust the quantity of individual products in my bag, so that I can make changes to my purchase before checkout     
+    8. As a Shopper, I want to be able to receive an email confirmation after checkout, so that I can view what I have purchased         
 
 **Site User Goals**    
-    1. As a Site User, I want to be able to register an account and log in, so that I can be able to view my profile      
-    2. As a Site User, I want to be able to logout, so that no one else can access my profile      
-    3. As a Site User, I want to be able to view my order history, so that I can check what I bought     
-    4. As a Site User, I want to be able to recover my password in case I forgot it, so that I can recover access to my account         
-    5. As a Site User, I want to be able to save my payment information so that I don't have to write it all again       
+    1. As a Site User, I want to be able to register an account and log in, so that I can be able to view my profile    
+    2. As a Site User, I want to be able to receive an email confirmation after registering, so that I can verify that my account registration was successful      
+    3. As a Site User, I want to be able to logout, so that no one else can access my profile      
+    4. As a Site User, I want to be able to view my order history, so that I can check what I bought     
+    5. As a Site User, I want to be able to recover my password in case I forgot it, so that I can recover access to my account         
+    6. As a Site User, I want to be able to save my payment information so that I don't have to write it all again  
+
+**Store Owner Goals**     
+    1. As a Store Owner, I want to be able to add a product, so that I can add new products to the store    
+    2. As a Store Owner, I want to be able to edit a product, so that I can make changes to a products image, description, price etc              
+    3. As a Store Owner, I want to be able to delete a product, so that I can remove products that is no longer a part of the collection         
 
 - ### Design 
     - **Color Scheme**   
@@ -51,7 +60,7 @@ The user goals of this website are:
     The pictures shows horse related products to buy.
     
     - **Interactivity**   
-    Users can register and login to add their own profile. Order history is displayed on the "My Profile" page.
+    Users can register and login to their own profile. Order history is displayed on the "My Profile" page.
 
 - ### Wireframe
     The wireframes was created using Figma and the wireframes are included as pdf files in the project itself (in a separate directory 
@@ -83,7 +92,7 @@ This is a page where the shopper can sign in to their profile once they have reg
 
 **My Profile page**    
 This is a page where the shopper can fill in the form to set their information like phone number, street address, town/city, 
-county/state/locality, postal code and country.
+county/state/locality, postal code and country. The page also display the order history.
 
 **Sign out**
 This is the button the shopper click when they want to sign out from their profile.
@@ -107,8 +116,8 @@ This is the button the shopper click when they want to sign out from their profi
 - Python3 
 
 ### Frameworks, Libraries & Programs Used
-- [Flask](https://flask.palletsprojects.com/en/1.1.x/) - for functionality
-- [Google fonts](https://fonts.google.com/) - Montserrat font
+- [Django](https://www.djangoproject.com/) - for functionality
+- [Google fonts](https://fonts.google.com/) - Roboto font used
 - [Font Awesome](https://fontawesome.com/) - to use icons 
 - [Bootstrap](https://getbootstrap.com/) - Bootstrap 4 to create carousel, navbar, forms
 - [Git](https://git-scm.com/) - was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
@@ -119,13 +128,13 @@ This is the button the shopper click when they want to sign out from their profi
 - [Figma](https://www.figma.com/) - to create the wireframes during the design process
 
 ## Testing
-Testing information can be found in separate [TESTING.md file](https://github.com/cirruselli/Data-Centric-Development-Milestone-Project/blob/master/TESTING.md)
+Testing information can be found in separate [TESTING.md file]()
 
 ## Deployment
 
 ### GitHub Pages Deployment
 To deploy this project to GitHub Pages, the following steps is taken:
-1. Log in to GitHub and locate this GitHub Repository [(Data-Centric-Development-Milestone-Project)](https://github.com/cirruselli/Data-Centric-Development-Milestone-Project).
+1. Log in to GitHub and locate this GitHub Repository [(MS4-Django-Ellis)](https://github.com/cirruselli/MS4-Django-Ellis).
 2. At the top of this repository, locate the "Settings" button on the menu.
 3. Scroll down the Settings page until you locate the "GitHub Pages" section.
 4. Under "Source", click the dropdown menu called "None" or "Branch" and select "Master Branch".
@@ -156,8 +165,7 @@ To deploy this project to Heroku, the following steps were taken:
 11. Confirm the linking of the Heroku app to the correct GitHub repository.
 12. In the Heroku dashboard, click "Connect"
 13. In the "Automatic deploys" section choose "master" branch and click "Enable Automatic Deploys"
-14. In the "Manual Deployment" section, make sure the master branch is selected and then click "Deploy Branch".
-15. The project is now deployed. 
+14. The project is now deployed. 
 
 ### How to run this project locally
 To clone this project into Gitpod, use the following steps:
