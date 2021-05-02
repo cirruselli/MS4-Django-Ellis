@@ -4,11 +4,12 @@ My Milestone Project 4 presents a website where a visitor can buy products relat
 
 Here's a link to the live app:
 
-This website is for people who have horses as a hobby or work with it and want to buy some horse-related products. The website has products like riding clothes, 
-riders gear (such as helmets, body protectors), grooming kit, medical care, saddles, bridles, bits etc. Everything a horse person needs!
+This website is for people who have horses as a hobby or work with it and want to buy some horse-related products. The website has 
+products like riding clothes, riders gear (such as helmets, body protectors), grooming kit, medical care, saddles, bridles, bits etc. 
+Everything a horse person needs!
 
 [Hööks](https://www.hookseurope.com/) has been the focal point in this project. Their website looks clean and is easy to navigate 
-and has been an inspiration for me.
+and has been an inspiration to me.
 They also have the green colour, but actually, I had planned the green colour scheme before I visited their site.  
 
 The business goals of this website are:    
@@ -22,22 +23,47 @@ The user goals of this website are:
 * View product ratings and rate oneself
 * Shop   
 
+## Table of Contents
+
+1. [User Experience (UX)](#user-experience-(UX))
+    - [User Stories](#user-stories)
+    - [Design](#design)
+    - [Wireframe](#wireframe)
+2. [Features](#features)
+    - [Existing features](#existing-features)
+    - [Features left to implement](#features-left-to-implement)
+3. [Technologies Used](#technologies-used)
+    - [Languages Used](#languages-used)
+    - [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
+4. [Testing](#testing)
+5. [Deployment](#deployment)
+    - [GitHub Pages Deployment](#github-pages-deployment)
+    - [Heroku Deployment](#heroku-deployment)
+    - [How to run this project locally](#how-to-run-this-project-locally)
+6. [Expanding on my project](#expanding-on-my-project)
+7. [Credits](#credits)
+    - [Content](#content)
+    - [Media](#media)
+    - [Acknowledgements](#acknowledgements)    
+
+
 ## User Experience (UX)
 
 ### User stories
 
 **Shopper Goals**   
-    1. As a Shopper, I want to be able to easily understand the main purpose of the site    
+    1. As a Shopper, I want to be able to easily understand the main purpose of the site so that I want to return to the site     
     2. As a Shopper, I want to be able to easily navigate throughout the site, so that I can find content   
     3. As a Shopper, I want to be able to search the site and view the number of results, so that I can easily find what I am looking for   
     4. As a Shopper, I want to be able to view individual product details, so that I can identify the price, product image, description, product rating and available sizes  
     5. As a Shopper, I want to be able to view the total of my purchases, so that I know how much I will spend     
     6. As a Shopper, I want to be able to select the size and quantity of a product, so that I can ensure I select the right quantity, size and product     
     7. As a Shopper, I want to be able to adjust the quantity of individual products in my bag, so that I can make changes to my purchase before checkout     
-    8. As a Shopper, I want to be able to receive an email confirmation after checkout, so that I can view what I have purchased       
+    8. As a Shopper, I want to be able to receive an email confirmation after checkout, so that I can view what I have purchased    
+    9. As a Shopper, I want to be able to sort a category, so that I can find the best-priced or best-rated product in that category or sort the products in that category by name        
 
 **Site User Goals**    
-    1. As a Site User, I want to be able to register an account and log iSn, so that I can be able to view my profile    
+    1. As a Site User, I want to be able to register an account and log in, so that I can be able to view my profile    
     2. As a Site User, I want to be able to receive an email confirmation after registering, so that I can verify that my account registration was successful      
     3. As a Site User, I want to be able to logout, so that no one else can access my profile      
     4. As a Site User, I want to be able to view my order history, so that I can check what I bought     
@@ -58,7 +84,7 @@ The user goals of this website are:
     The Roboto font is the main font used, since it gives a clean look to the website.
 
     - **Imagery**   
-    The pictures shows horse related products to buy.
+    The pictures shows clothes and horse related products to buy.
     
     - **Interactivity**   
     Shoppers can register and login to their own profile. Order history is displayed on the "My Profile" page.
@@ -75,19 +101,20 @@ The landing page features one picture with four pictures in it. In the middle-bo
 the shopper to the page with all products. The "Shop Now" button shades in light green when hovered over.
 
 **All products page**    
-The "All products" page is showing all the products available to buy with a picture of the product, the rating and the category. 
-The products can be sorted by price, rating, name or by category.
+The "All products" page is showing all the products available to buy with a picture of the product, the price, the rating and the category. 
+The products can be sorted by price, rating, name or by category. The Store Owner can edit or delete the item. 
 
 **Products pages**   
-The "products pages" is each individual page with products on them and are as follow:    
+The "products pages" is each individual category with product pages on them and are as follow:    
 **CLOTHING**: Tops, T-shirts, Riding breeches, Riding Jackets, Riding gloves, Riding helmets, Body protectors    
 **HORSE**: Bridles, Bits, Saddles, Halters    
 **GROOMING**: Grooming kit, Fur care, Farriery, Medical care, Leather care    
-Each page can be sorted by price, rating, name och category.
+Each page can be sorted by price, rating, name och category. The Store Owner can edit or delete the item.
 
 **Product details**
 This page displays one product and its details such as description, quantity, price, rating and category. The "Add to bag" button is 
-dark green and shades in light green when hovered over. The "Keep shopping" button is white and shades in dark green when hovered over.  
+dark green and shades in light green when hovered over. The "Keep shopping" button is white and shades in dark green when hovered over. 
+The Store Owner can edit or delete the item. 
 
 **Sign up**   
 This is a page where the shopper can sign up to create their own profile by filling out the form. The "Sign up" button is dark green and 
@@ -103,24 +130,23 @@ county/state/locality, postal code and country. The page also displays the order
 shades in light green when hovered over. 
 
 **Sign out**    
-This is the button the shopper click when they want to sign out from their profile. It shades in light green when hovered over. 
-The "Sign out" button is dark green and shades in light green when hovered over. The "Cancel" button is white and shades in dark green 
-when hovered over. 
+This is the button the shopper click when they want to sign out from their profile. The "Sign out" button is dark green and shades 
+in light green when hovered over. The "Cancel" button is white and shades in dark green when hovered over. 
 
 **Bag**    
 The bag displays the products that will be purchased and also the quantity which can be changed. The "Checkout" button is dark green 
 and shades in light green when hovered over. 
 
 - ### Existing Features
-    - Landing page - allows users to enter the site  to start shopping via "Shop Now" button.
-    - All products page - Shows all products by price, rating, name or category
-    - Products pages - each individual page with products on them
-    - Product details - displays one product and its details
-    - Sign up -click here to register to the page.
-    - Sign in - click here when you have a registered account and want to log in to the site.
-    - My profile - the shopper can fill out the form to set their personal information. The page displays the order information.
-    - Sign out - click here when you want to log out from your profile.
-    - Bag - displays the products and quantity that will be purchased
+    - **Landing page** - allows users to enter the site to start shopping via "Shop Now" button.
+    - **All products page** - can display all products by price, rating, name or category
+    - **Products pages** - each individual page with products on them
+    - **Product details** - displays one product and its details
+    - **Sign up** -click here to register to the page.
+    - **Sign in** - click here when you have a registered account and want to log in to the site.
+    - **My profile** - the shopper can fill out the form to set their personal information. The page displays the order information.
+    - **Sign out** - click here when you want to log out from your profile.
+    - **Bag** - displays the products and quantity that will be purchased
 
 - ### Features Left to Implement
     - contact page
@@ -132,14 +158,17 @@ and shades in light green when hovered over.
 - JavaScript
 - Python3 
 
-### Frameworks, Libraries & Programs Used
-- [Django](https://www.djangoproject.com/) - for functionality
+### Frameworks, Libraries and Programs Used
+- [Django](https://www.djangoproject.com/) -  as python web framework 
 - [Google fonts](https://fonts.google.com/) - Roboto font used
 - [Font Awesome](https://fontawesome.com/) - to use icons 
 - [Bootstrap](https://getbootstrap.com/) - Bootstrap 4 to create carousel, navbar, forms
 - [Git](https://git-scm.com/) - was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 - [GitHub](https://github.com/) - is used to store the projects code after being pushed from Git.
 - [Gitpod](https://gitpod.io/) - IDE used
+- [Stripe](https://stripe.com/en-se) - as payment platform to validate and securely accept credit card payments.
+- [AWS S3 Bucket](https://aws.amazon.com/) - to store static files in the cloud.
+- Django Crispy Forms - to style Django forms.
 - Postgres - database used
 - [Heroku](https://dashboard.heroku.com/) - for deployment of the project
 - [Figma](https://www.figma.com/) - to create the wireframes during the design process

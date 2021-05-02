@@ -1,12 +1,45 @@
 ### Testing User Stories from User Experience (UX) Section
 **Shopper Goals**    
-1. 
+1. As a Shopper, I want to be able to easily understand the main purpose of the site    
+    i.
+2. As a Shopper, I want to be able to easily navigate throughout the site, so that I can find content   
+    i.
+3. As a Shopper, I want to be able to search the site and view the number of results, so that I can easily find what I am looking for   
+    i.
+4. As a Shopper, I want to be able to view individual product details, so that I can identify the price, product image, description, product rating and available sizes  
+    i.
+5. As a Shopper, I want to be able to view the total of my purchases, so that I know how much I will spend     
+    i.
+6. As a Shopper, I want to be able to select the size and quantity of a product, so that I can ensure I select the right quantity, size and product     
+    i.
+7. As a Shopper, I want to be able to adjust the quantity of individual products in my bag, so that I can make changes to my purchase before checkout     
+    i.
+8. As a Shopper, I want to be able to receive an email confirmation after checkout, so that I can view what I have purchased     
+    i.
+9. As a Shopper, I want to be able to sort a category, so that I can find the best-priced or best-rated product in that category or sort the products in that category by name    
+    i.
  
 **Site User Goals**   
-1. 
+1. As a Site User, I want to be able to register an account and log in, so that I can be able to view my profile    
+    i. 
+2. As a Site User, I want to be able to receive an email confirmation after registering, so that I can verify that my account registration was successful     
+    i.
+3. As a Site User, I want to be able to logout, so that no one else can access my profile      
+    i.
+4. As a Site User, I want to be able to view my order history, so that I can check what I bought     
+    i.
+5. As a Site User, I want to be able to recover my password in case I forgot it, so that I can recover access to my account       
+    i.
+6. As a Site User, I want to be able to save my payment information so that I don't have to write it all again    
+    i.
 
 **Store Owner Goals**
-1. 
+1. As a Store Owner, I want to be able to add a product, so that I can add new products to the store    
+    i.
+2. As a Store Owner, I want to be able to edit a product, so that I can make changes to a products image, description, price etc      
+    i.        
+3. As a Store Owner, I want to be able to delete a product, so that I can remove products that are no longer a part of the collection   
+    i.
 
 ### Further testing    
 Most testing was done throughout development, and it was manual tests.   
