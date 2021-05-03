@@ -1,0 +1,30 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: url('/media/header.jpg') no-repeat center center fixed;
+    background-size: contain;
+    font-family: 'Roboto';
+}
+
+.shop-now-button {
+    background: #26690F;
+    color: white;
+    text-align: center;
+    line-height: 75px;
+    min-width: 200px;
+    min-height: 200px;
+    font-size: xxx-large;
+    padding-top: 20px;
+}
+
+.shop-now-button:hover,
+.shop-now-button:active,
+.shop-now-button:focus,
+.btn-black:hover,
+.btn-black:active,
+.btn-black:focus {
+    background: rgb(98, 160, 77);
+    color: white;
+}
