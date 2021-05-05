@@ -81,7 +81,7 @@ The user goals of this website are:
     ([see colour affects here](http://www.colour-affects.co.uk/psychological-properties-of-colours))
 
     - **Typography**    
-    The Roboto font is the main font used, since it gives a clean look to the website.
+    The Roboto font is the main font used, since it gives a clean look to the website. Pacifico is the font used for the logo.
 
     - **Imagery**   
     The pictures shows clothes and horse related products to buy.
