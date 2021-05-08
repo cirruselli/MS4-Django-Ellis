@@ -68,6 +68,17 @@ body {
     border: 1px solid #26690F !important;
 }
 
+/* Eventuellt ta bort detta om jag gör om bakgrunden, i products.html*/
+.overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: white;
+    z-index: -1;
+}
+
 /* -------------------------------- Media Queries */
 
 /* fixed top navbar only on medium and up */
@@ -104,5 +115,9 @@ body {
     top: 230px;
     font-size: large;
     padding-top: 25px;
+    }
+
+    .header-container {
+        padding-top: 100px;
     }
 }
