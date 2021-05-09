@@ -61,4 +61,17 @@ Most testing was done throughout development, and it was manual tests.
     ![]()
 
     
-### Known bugs
+### Known bugs    
+
+Some pictures had to much height compared to the rest of the pictures (printscreen below).     
+![2021-05-09](https://user-images.githubusercontent.com/60824715/117582974-0adadb00-b105-11eb-8430-a4d65c8f3032.png)
+This was fixed with the CSS code below, from [Stack Overflow](https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width).: 
+```   
+.card-img-top {   
+    width: 100%;   
+    height: 15rem;   
+    object-fit: contain;   
+}
+```     
+Fixed bug:
+![2021-05-09 (2)](https://user-images.githubusercontent.com/60824715/117582981-1201e900-b105-11eb-9d7a-86bdf760eaf5.png)
