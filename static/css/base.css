@@ -79,6 +79,14 @@ body {
     z-index: -1;
 }
 
+/*card-img-top: With helpful solution from stack overflow: https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width*/
+
+.card-img-top {
+    width: 100%;
+    height: 15rem;
+    object-fit: contain;
+}
+
 /* -------------------------------- Media Queries */
 
 /* fixed top navbar only on medium and up */
