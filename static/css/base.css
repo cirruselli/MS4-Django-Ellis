@@ -68,7 +68,7 @@ body {
     border: 1px solid #26690F !important;
 }
 
-/* Eventuellt ta bort detta om jag gör om bakgrunden, i products.html*/
+/* Eventuellt ta bort detta om jag gör om bakgrunden, i products.html, product_detail*/
 .overlay {
     height: 100%;
     width: 100%;
@@ -96,7 +96,7 @@ body {
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     body {
         background: url('/media/header.jpg') no-repeat center 75px;
         background-size: 50em;
