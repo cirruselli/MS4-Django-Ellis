@@ -17,14 +17,14 @@
                 Clothing
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Tops</a>
-                <a href="" class="dropdown-item">T-shirts</a>
-                <a href="" class="dropdown-item">Riding breeches</a>
-                <a href="" class="dropdown-item">Riding Jackets</a>
-                <a href="" class="dropdown-item">Riding gloves</a>
-                <a href="" class="dropdown-item">Riding helmets</a>
-                <a href="" class="dropdown-item">Body protectors</a>
-                <a href="" class="dropdown-item">All Clothing</a>
+                <a href="{% url 'products' %}?category=tops" class="dropdown-item">Tops</a>
+                <a href="{% url 'products' %}?category=t_shirts" class="dropdown-item">T-shirts</a>
+                <a href="{% url 'products' %}?category=riding_breeches" class="dropdown-item">Riding breeches</a>
+                <a href="{% url 'products' %}?category=riding_jackets" class="dropdown-item">Riding Jackets</a>
+                <a href="{% url 'products' %}?category=riding_gloves" class="dropdown-item">Riding gloves</a>
+                <a href="{% url 'products' %}?category=riding_helmets" class="dropdown-item">Riding helmets</a>
+                <a href="{% url 'products' %}?category=body_protectors" class="dropdown-item">Body protectors</a>
+                <a href="{% url 'products' %}?category=tops,t_shirts,riding_breeches,riding_jackets,riding_gloves,riding_helmets,body_protectors" class="dropdown-item">All Clothing</a>
             </div>
         </li>
 
@@ -33,11 +33,11 @@
                 Horse
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="horse-link">
-                <a href="" class="dropdown-item">Bridles</a>
-                <a href="" class="dropdown-item">Bits</a>
-                <a href="" class="dropdown-item">Saddles</a>
-                <a href="" class="dropdown-item">Halters</a>
-                <a href="" class="dropdown-item">All Horse</a>
+                <a href="{% url 'products' %}?category=bridles" class="dropdown-item">Bridles</a>
+                <a href="{% url 'products' %}?category=bits" class="dropdown-item">Bits</a>
+                <a href="{% url 'products' %}?category=saddles" class="dropdown-item">Saddles</a>
+                <a href="{% url 'products' %}?category=halters" class="dropdown-item">Halters</a>
+                <a href="{% url 'products' %}?category=bridles,bits,saddles,halters" class="dropdown-item">All Horse</a>
             </div>
         </li>
 
@@ -46,12 +46,12 @@
                 Grooming
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="grooming-link">
-                <a href="" class="dropdown-item">Grooming kit</a>
-                <a href="" class="dropdown-item">Fur care</a>
-                <a href="" class="dropdown-item">Farriery</a>
-                <a href="" class="dropdown-item">Medical care</a>
-                <a href="" class="dropdown-item">Leather care</a>
-                <a href="" class="dropdown-item">All Grooming</a>
+                <a href="{% url 'products' %}?category=grooming_kit" class="dropdown-item">Grooming kit</a>
+                <a href="{% url 'products' %}?category=fur_care" class="dropdown-item">Fur care</a>
+                <a href="{% url 'products' %}?category=farriery" class="dropdown-item">Farriery</a>
+                <a href="{% url 'products' %}?category=medical_care" class="dropdown-item">Medical care</a>
+                <a href="{% url 'products' %}?category=leather_care" class="dropdown-item">Leather care</a>
+                <a href="{% url 'products' %}?category=grooming_kit,fur_care,farriery,medical_care,leather_care" class="dropdown-item">All Grooming</a>
             </div>
         </li>
     </ul>
