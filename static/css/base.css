@@ -87,6 +87,18 @@ body {
     object-fit: contain;
 }
 
+.link-style {
+    color: #26690F;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.link-style:hover{
+    color: #EBEBEB;
+    text-decoration: none;
+    background-color: #26690F; 
+    font-size: 1rem;
+
 /* -------------------------------- Media Queries */
 
 /* fixed top navbar only on medium and up */
