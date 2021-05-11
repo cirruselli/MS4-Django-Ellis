@@ -5,7 +5,8 @@ html {
 body {
     background: url('/media/header.jpg') no-repeat center 150px;
     background-size: contain;
-    font-family: 'Roboto'; 
+    height: calc(100vh - 164px);
+    font-family: 'Roboto';
 }
 
 .shop-now-button {
@@ -98,6 +99,11 @@ body {
     text-decoration: none;
     background-color: #26690F; 
     font-size: 1rem;
+}
+
+.header-container {
+    padding-top: 164px;
+}
 
 /* -------------------------------- Media Queries */
 
@@ -110,17 +116,12 @@ body {
         left: 0;
         z-index: 1030;
     }
-
-    .header-container {
-        padding-top: 164px;
-    }
 }
 
 @media (max-width: 991px) {
     body {
         background: url('/media/header.jpg') no-repeat center 75px;
-        background-size: 50em;
-        font-family: 'Roboto';  
+        background-size: 50em; 
     }
 
     .text-center {
@@ -138,6 +139,10 @@ body {
     }
 
     .header-container {
-        padding-top: 100px;
+        padding-top: 116px;
+    }
+
+    body {
+        height: calc(100vh - 116px);
     }
 }
