@@ -49,6 +49,7 @@ body {
 
 .nav-font {
     text-transform: uppercase;
+    color: #26690F;
 }
 
 .main-logo-link {
@@ -62,7 +63,6 @@ body {
 
 .text-green {
     color:#26690F !important;
-    color: white;
 }
 
 .border-green {
@@ -103,6 +103,11 @@ body {
 
 .header-container {
     padding-top: 164px;
+}
+
+a.category-badge > span.badge:hover {
+    background: #26690F !important;
+    color: #fff !important;
 }
 
 /* -------------------------------- Media Queries */
