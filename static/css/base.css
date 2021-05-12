@@ -9,30 +9,6 @@ body {
     font-family: 'Roboto';
 }
 
-.shop-now-button {
-    background: #26690F;
-    color: white;
-    text-align: center;
-    line-height: 75px;
-    min-width: 200px;
-    min-height: 200px;
-    position: relative;
-    left: 660px;
-    top: 380px;
-    font-size: xxx-large;
-    padding-top: 20px;
-}
-
-.shop-now-button:hover,
-.shop-now-button:active,
-.shop-now-button:focus
-.btn-green:hover,
-.btn-green:active,
-.btn-green:focus {
-    background: rgb(98, 160, 77);
-    color: white;
-}
-
 /* from Bulma */
 .icon {
     align-items: center;
@@ -59,6 +35,44 @@ body {
 .btn-green {
     background: #26690F;
     color: white;
+}
+
+.shop-now-button {
+    background: #26690F;
+    color: white;
+    text-align: center;
+    line-height: 75px;
+    min-width: 200px;
+    min-height: 200px;
+    position: relative;
+    left: 660px;
+    top: 380px;
+    font-size: xxx-large;
+    padding-top: 20px;
+}
+
+.shop-now-button:hover,
+.shop-now-button:active,
+.shop-now-button:focus,
+.btn-green:hover,
+.btn-green:active,
+.btn-green:focus {
+    background: white;
+    color: #26690F;
+    border: 1px solid #26690F;
+}
+
+.btn-outline-green {
+    background: white;
+    color: #26690F !important; /* use important to override link colors for <a> elements */
+    border: 1px solid #26690F;
+}
+
+.btn-outline-green:hover,
+.btn-outline-green:active,
+.btn-outline-green:focus {
+    background: #26690F;
+    color: white !important;
 }
 
 .text-green {
@@ -108,6 +122,19 @@ body {
 a.category-badge > span.badge:hover {
     background: #26690F !important;
     color: #fff !important;
+}
+
+
+.btt-button {
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.btt-link {
+    cursor: pointer;
 }
 
 /* -------------------------------- Media Queries */
