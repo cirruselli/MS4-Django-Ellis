@@ -160,7 +160,7 @@ and shades in light green when hovered over.
 
 ### Frameworks, Libraries and Programs Used
 - [Django](https://www.djangoproject.com/) -  as python web framework 
-- [Google fonts](https://fonts.google.com/) - Roboto font used
+- [Google fonts](https://fonts.google.com/) - Roboto a Pacifico fonts used
 - [Font Awesome](https://fontawesome.com/) - to use icons 
 - [Bootstrap](https://getbootstrap.com/) - Bootstrap 4 to create carousel, navbar, forms
 - [Git](https://git-scm.com/) - was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
