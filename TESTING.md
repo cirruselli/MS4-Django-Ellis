@@ -42,7 +42,7 @@
     i.
 
 ### Further testing    
-Most testing was done throughout development, and it was manual tests.   
+Most testing was done throughout development, and it was manual tests. Unfortunately I did not have time to test the views.  
 1. 
 
 
@@ -52,8 +52,8 @@ Most testing was done throughout development, and it was manual tests.
 
 ### Validation 
 
-* The code have been validated in a [HTML validator](https://validator.w3.org/#validate_by_input), [CSS validator](https://jigsaw.w3.org/css-validator/#validate_by_input), 
-    [JavaScript validator](https://jshint.com/) and [Python validator](http://pep8online.com/) respectively.
+* The code has not been validated in a [HTML validator](https://validator.w3.org/#validate_by_input), [CSS validator](https://jigsaw.w3.org/css-validator/#validate_by_input), 
+    [JavaScript validator](https://jshint.com/) nor [Python validator](http://pep8online.com/).
 
 * Lighthouse is an open-source, automated tool for improving the quality of web pages and was used to check the site for performance.
     

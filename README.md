@@ -98,44 +98,44 @@ Each page features a responsive navigation bar with a logo in the top left corne
 
 **Landing page**    
 The landing page features one picture with four pictures in it. In the middle-bottom there is a button "Shop Now" that navigates 
-the shopper to the page with all products. The "Shop Now" button shades in light green when hovered over.
+the shopper to the page with all products. The "Shop Now" button is darkgreen and shades in white when hovered over.
 
 **All products page**    
 The "All products" page is showing all the products available to buy with a picture of the product, the price, the rating and the category. 
-The products can be sorted by price, rating, name or by category. The Store Owner can edit or delete the item. 
+The products can be sorted by price, rating, or by category. The Store Owner can edit or delete the item. 
 
 **Products pages**   
 The "products pages" is each individual category with product pages on them and are as follow:    
 **CLOTHING**: Tops, T-shirts, Riding breeches, Riding Jackets, Riding gloves, Riding helmets, Body protectors    
 **HORSE**: Bridles, Bits, Saddles, Halters    
 **GROOMING**: Grooming kit, Fur care, Farriery, Medical care, Leather care    
-Each page can be sorted by price, rating, name och category. The Store Owner can edit or delete the item.
+Each page can be sorted by price, rating, name and category. The Store Owner can edit or delete the item.
 
 **Product details**
 This page displays one product and its details such as description, quantity, price, rating and category. The "Add to bag" button is 
-dark green and shades in light green when hovered over. The "Keep shopping" button is white and shades in dark green when hovered over. 
+dark green and shades in white when hovered over. The "Keep shopping" button is white and shades in dark green when hovered over. 
 The Store Owner can edit or delete the item. 
 
 **Sign up**   
 This is a page where the shopper can sign up to create their own profile by filling out the form. The "Sign up" button is dark green and 
-shades in light green when hovered over. The "Back to Sign in" button is white and shades in dark green when hovered over. 
+shades in white when hovered over. The "Back to Login" button is white and shades in dark green when hovered over. 
 
 **Sign in**
 This is a page where the shopper can sign in to their profile once they have registered to the site. The "Sign in" button is dark green,
-and shades in light green when hovered over. The "Home" button is white and shades in dark green when hovered over.
+and shades in white when hovered over. The "Home" button is white and shades in dark green when hovered over.
 
 **My Profile page**    
 This is a page where the shopper can fill out the form to set their personal information like phone number, street address, town/city, 
 county/state/locality, postal code and country. The page also displays the order history. The "Update information" button is dark green and 
-shades in light green when hovered over. 
+shades in white when hovered over. 
 
 **Sign out**    
 This is the button the shopper click when they want to sign out from their profile. The "Sign out" button is dark green and shades 
-in light green when hovered over. The "Cancel" button is white and shades in dark green when hovered over. 
+in white when hovered over. The "Cancel" button is white and shades in dark green when hovered over. 
 
 **Bag**    
-The bag displays the products that will be purchased and also the quantity which can be changed. The "Checkout" button is dark green 
-and shades in light green when hovered over. 
+The bag displays the products that will be purchased, price and subtotal, and also the quantity which can be changed. The "Secure Checkout" button is dark green 
+and shades in white when hovered over. The "Keep Shopping" button is white and shades in dark green when hovered over.
 
 - ### Existing Features
     - **Landing page** - allows users to enter the site to start shopping via "Shop Now" button.
@@ -149,7 +149,8 @@ and shades in light green when hovered over.
     - **Bag** - displays the products and quantity that will be purchased
 
 - ### Features Left to Implement
-    - contact page
+    - Contact page
+    - Footer
 
 ## Technologies Used
 ### Languages Used
