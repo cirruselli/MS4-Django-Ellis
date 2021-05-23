@@ -87,3 +87,12 @@ Fixed bug by placing
 ```
 outside of media queries. Thanks to the tutorsupport.
 ![2021-05-11 (3)](https://user-images.githubusercontent.com/60824715/117838947-0f290480-b27b-11eb-9ad8-003830716a67.png)
+
+3. When testing the profile, "My Profile" is not visible when clicking the "My Account" button in the top right corner on larger screen. On smaller screen, 
+where the toggle function is showing, the "My Profile" is showing. "My Profile" is only showing when writing "profile" at the end 
+of the address field.
+
+![2021-05-23 (1)](https://user-images.githubusercontent.com/60824715/119258770-74f68400-bbcb-11eb-9414-e96f1770760c.png)
+
+![2021-05-23 (3)](https://user-images.githubusercontent.com/60824715/119258859-cacb2c00-bbcb-11eb-8a71-c68983f9b9f6.png)
+
