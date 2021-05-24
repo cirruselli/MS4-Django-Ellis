@@ -12,6 +12,8 @@ Everything a horse person needs!
 and has been an inspiration to me.
 They also have the green colour, but actually, I had planned the green colour scheme before I visited their site.  
 
+This project is far from completed.
+
 The business goals of this website are:    
 * Showcase the products available for purchase  
 * Make the visitor/shopper return to the site
@@ -240,11 +242,5 @@ The photos used in this site were obtained from:
 [Hööks](https://www.hookseurope.com/)
 
 ### Acknowledgements
-
-- Tutors at Code Institute for their support.
-
-- My mentor for his support. 
-
-- My long-distance boyfriend for his support.
 
 - I received inspiration for this project from Code Insitute's Project "Boutique Ado", and my own interest horses.

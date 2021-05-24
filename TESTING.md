@@ -42,24 +42,13 @@
     i.
 
 ### Further testing    
-Most testing was done throughout development, and it was manual tests. Unfortunately I did not have time to test the views.  
-1. 
-
-
-* Different web-browsers (Opera, Firefox, Microsoft Edge, Chrome) and Samsung galaxy 9 (Android) have been used to check the website's 
-    layout and that the site works well on different devices and screensizes. Where needed I used media query to fix any responsiveness issues.
-
+Most testing was done throughout development, and it was manual tests. Unfortunately I did not have time to test the views. Nor did I have 
+time to test anything more than what was done throughout development. 
 
 ### Validation 
 
 * The code has not been validated in a [HTML validator](https://validator.w3.org/#validate_by_input), [CSS validator](https://jigsaw.w3.org/css-validator/#validate_by_input), 
     [JavaScript validator](https://jshint.com/) nor [Python validator](http://pep8online.com/).
-
-* Lighthouse is an open-source, automated tool for improving the quality of web pages and was used to check the site for performance.
-    
-    Landing page:
-    ![]()
-
     
 ### Known bugs    
 
