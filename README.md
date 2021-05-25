@@ -192,29 +192,7 @@ To deploy this project to GitHub Pages, the following steps is taken:
 
 ### Heroku Deployment
 To deploy this project to Heroku, the following steps were taken:
-1. Create a `requirements.txt` file using the terminal command `pip3 freeze --local > requirements.txt`.
-2. Create a `Procfile` with the terminal command `echo web: python app.py > Procfile`.
-3. Use `git add` and `git commit` for the `requirements.txt` and `Procfile` and then `git push` the project to GitHub.
-4. Log in and create a new app on the [Heroku website](https://dashboard.heroku.com) by clicking the "New" button and "Create New App" in your dashboard. Give the app a unique name, set the region to Europe and click "Create app".
-5. Go to the IDE, in the terminal write `npm install -g Heroku` to install Heroku.
-6. To connect Git remote to Heroku, copy the Heroku git URL under "Settings" on the Heroku website. In the terminal write the command `git remote add` + a name for the remote + the link you've just copied.
-7. On the Heroku website for the application, click on "Settings" > "Reveal Config Vars".
-8. Set the following config vars:
 
-    KEY | VALUE
-    ----|---------
-    IP | 0.0.0.0
-    MONGO_DBNAME | <your_mongo_db_name>
-    MONGO_URI | mongodb+srv://\<username>:\<password>@<cluster_name>.t81d9.mongodb.net/<database_name>?retryWrites=true&w=majority
-    PORT | 5000
-    SECRET_KEY | <your_secret_key>
-
-9. In your app.py, set "debug" to "False".
-10. From the Heroku dashboard of your newly created application, click on "Deploy" > "Deployment method" and select GitHub.
-11. Confirm the linking of the Heroku app to the correct GitHub repository.
-12. In the Heroku dashboard, click "Connect"
-13. In the "Automatic deploys" section choose "master" branch and click "Enable Automatic Deploys"
-14. The project is now deployed. 
 
 ### How to run this project locally
 To clone this project into Gitpod, use the following steps:
